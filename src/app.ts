@@ -9,8 +9,8 @@ const APP = () =>{
     movieService.add('스파이더맨','액션',4,250);
 
     
-    movieService.printById(0);
     movieService.remove();
+    movieService.reseve(1,10);
     movieService.printAll();
 
 

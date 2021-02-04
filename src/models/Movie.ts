@@ -8,7 +8,7 @@ export default class Movie implements IMovie{
     totalSeat: Number;
     remainSeat: number;
     //this가 무엇일까 instance는 무엇일까
-    constructor(title:string,genre:string,rating:number,id:number,totalSeat?:number,remainSeat?:number){
+    constructor(title:string,genre:string,rating:number,id:number,totalSeat:number,remainSeat:number){
         this.title=title;
         this.genre=genre;
         this.rating=rating;

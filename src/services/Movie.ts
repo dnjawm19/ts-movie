@@ -33,4 +33,9 @@ export default class MovieService{
         const movie = this.movies.filter((movie) => movie.id !== id);
         this.movies = movie;
     }
+
+    reseve = (id:number,seat:number) => {
+        const seats = this.get(id);
+        this.get(id).remainSeat = this.get(id).remainSeat-seat;
+    }
 }
