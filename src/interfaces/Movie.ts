@@ -4,4 +4,6 @@ export default interface IMovie {
     genre: string;
     rating: number;
     id: number;
+    totlaSeat?: number;
+    remainSear?: number;
 }
